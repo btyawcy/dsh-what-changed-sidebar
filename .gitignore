@@ -1,0 +1,15 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物（lib 是手写产物，直接发布，不忽略）
+# dist/
+# coverage/
+
+# 编辑器/系统
+.DS_Store
+*.log
+Thumbs.db
+
+# 测试残留
+*.test.txt

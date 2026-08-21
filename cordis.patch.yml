@@ -1,0 +1,7 @@
+# dsh-what-changed-sidebar bundle patch.
+# Session projection key: whatChangedSidebar. Presents the agent's file
+# edits as a better-sidebar tab (grouped by turn, before/after code blocks,
+# lazy-loaded content, auto-open on edits).
+- insert:
+    - id: what-changed-sidebar
+      name: 'dsh-what-changed-sidebar'
