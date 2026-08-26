@@ -1,7 +1,7 @@
 {
   "name": "dsh-what-changed-sidebar",
-  "version": "0.2.0",
-  "description": "Agent 文件改动记录（better-sidebar tab）：按轮次分组、新→旧倒序、修改次序编号、改前红/改后绿、shell 写入原文、懒加载全量内容、敏感文件防护、自动弹出可配置。",
+  "version": "0.4.0",
+  "description": "Agent 文件改动记录（better-sidebar tab）：按轮次单一视图、逐次修改与轮次快照全文对照、内联对比 diff、新→旧倒序、修改次序编号、shell 写入原文、快照落盘持久化（只留最近 100 轮）、懒加载、敏感文件防护。",
   "type": "module",
   "license": "MIT",
   "repository": "github:btyawcy/dsh-what-changed-sidebar",
@@ -34,8 +34,7 @@
   "files": [
     "lib",
     "cordis.patch.yml",
-    "README.md",
-    "README.en.md"
+    "README.md"
   ],
   "dsh": {
     "bundle": {
