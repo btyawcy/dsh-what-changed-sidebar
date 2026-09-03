@@ -50,9 +50,6 @@
   "scripts": {
     "check": "node --check lib/client.js"
   },
-  "dependencies": {
-    "zod": "^4.4.3"
-  },
   "peerDependencies": {
     "react": "^18.2.0",
     "dsh-better-sidebar": ">=0.12.0"
